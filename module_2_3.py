@@ -6,5 +6,5 @@ while index < len(my_list):
         index += 1
     else:
         index += 1
-    if my_list[index] < 0:
+    if my_list[index] <= 0:
         break
